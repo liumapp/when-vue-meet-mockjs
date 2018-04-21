@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-require('mock.js')
+require('./mock.js')
 
 Vue.config.productionTip = false
 

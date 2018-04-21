@@ -79,6 +79,9 @@
           awesome-vue
         </a>
       </li>
+      <li>
+
+      </li>
     </ul>
   </div>
 </template>
@@ -88,8 +91,12 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      data: []
     }
+  },
+  mounted: function () {
+
   }
 }
 </script>
