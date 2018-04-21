@@ -79,8 +79,8 @@
           awesome-vue
         </a>
       </li>
-      <li>
-
+      <li v-for="(item,key) in data">
+        {{ item }}
       </li>
     </ul>
   </div>
