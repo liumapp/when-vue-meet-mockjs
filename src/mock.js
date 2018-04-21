@@ -16,13 +16,26 @@ Mock.mock('/api/data', (req, res) => {
 
 /**
  * String
- * 'name|min-max': string
  * generate 1 to 10 * of String type
  */
-Mock.mock('/api/data/string', (req, res) => {
+Mock.mock('/api/data/string/1', (req, res) => {
   return {
     data: Mock.mock({
-      "string|1-10": "★"
+      "string|1-10": "*"
     })
   }
 })
+
+/**
+ * String
+ * copy 3 types of  '***'
+ */
+Mock.mock('/api/data/string/2', (req, res) => {
+  return {
+    data: Mock.mock({
+      "string|3": "***"
+    })
+  }
+})
+
+
