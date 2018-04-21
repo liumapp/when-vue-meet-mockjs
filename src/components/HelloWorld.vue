@@ -96,7 +96,10 @@ export default {
     }
   },
   mounted: function () {
-
+    this.$axios.get('/api/data').then(res => {
+      this.data = res.data
+      console.log(res)
+    })
   }
 }
 </script>
