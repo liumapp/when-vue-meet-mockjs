@@ -4,6 +4,7 @@
  * @email liumapp.com@gmail.com
  * @homepage http://www.liumapp.com
  * @date 4/21/18
+ * get more detail from http://mockjs.com/examples.html
  */
 
 const Mock = require('mockjs')
