@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-
+    <div v-for="(item,key) in data">
+      {{ item }}
+    </div>
   </div>
 </template>
 

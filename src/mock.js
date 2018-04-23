@@ -19,10 +19,10 @@ Mock.mock('/api/data', (req, res) => {
  * String
  * generate 1 to 10 * of String type
  */
-Mock.mock('/api/data/string/1', (req, res) => {
+Mock.mock('/api/data/string', (req, res) => {
   return {
     data: Mock.mock({
-      "string|1-10": "*"
+      "string|1-100": "123"
     })
   }
 })
